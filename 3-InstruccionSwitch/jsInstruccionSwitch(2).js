@@ -1,9 +1,22 @@
 function Mostrar()
 {
 //tomo el mes 
-var mesDelAño = document.getElementById('mes').value;
+var mesDelAnio = document.getElementById('mes').value;
 
-alert (mesDelAño);
+switch( mesDelAnio) {
+    case("Enero""Junio"):
+    alert("falta para el invierno");
+        break;
+    case "Julio":
+    case "Agosto":
+        alert( "abrigate que hace frio");
+         break;
+    case "Septiembre":
+    case "Diceimbre":
+        alert("ya paso el frio");
+         break;
+   
+}
 
 
 
